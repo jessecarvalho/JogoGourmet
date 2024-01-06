@@ -5,6 +5,7 @@ namespace Core.Interfaces;
 public interface IGame
 {
     public void Start();
+    public void AddInitialFoodsAndCharacteristics();
     public void TryToGuess();
     public void GuessedRight();
     public Food AddNewFood();
