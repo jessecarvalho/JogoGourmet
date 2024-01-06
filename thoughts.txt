@@ -1,0 +1,8 @@
+PRATO
+    Raviolli
+
+CARACTERISTICAS
+    - Massa (Caracteristica)
+        - Macarrao (Sub Caracteristica)
+            - Raviolli (Prato)
+            - Espaguete (Prato)
