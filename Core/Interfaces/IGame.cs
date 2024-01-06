@@ -8,7 +8,7 @@ public interface IGame
     public void AddInitialFoodsAndCharacteristics();
     public void TryToGuess();
     public void GuessedRight();
-    public Food AddNewFood();
-    public Characteristic AddNewCharacteristic();
+    public FoodNode AddNewFood();
+    public FoodNode AddNewCharacteristic();
     public void AddNewFoodToNewCharacteristic();
 }
