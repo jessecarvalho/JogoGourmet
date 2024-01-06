@@ -1,4 +1,5 @@
-namespace DefaultNamespace;
+namespace Core.Models;
+
 
 public class Food
 {

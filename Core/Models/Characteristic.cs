@@ -1,4 +1,4 @@
-namespace DefaultNamespace;
+namespace Core.Models;
 
 public class Characteristic
 {
@@ -6,8 +6,9 @@ public class Characteristic
     public List<Food> relatedFoods { get; set; }
     public List<Characteristic> subCharacteristics { get; set; }
     
-    public AddSubCharacteristic(Characteristic subCharacteristic)
+    public Characteristic AddSubCharacteristic(Characteristic subCharacteristic)
     {
         subCharacteristics.Add(subCharacteristic);
+        return subCharacteristic;
     }
 }
