@@ -10,4 +10,10 @@ public class FoodNode
     {
         this.Name = name;
     }
+    
+    public FoodNode AddNode(FoodNode node)
+    {
+        Nodes.Add(node);
+        return node;
+    }
 }
