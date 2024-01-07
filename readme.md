@@ -2,6 +2,9 @@
 
 Este é um jogo de adivinhação simples construído em C# utilizando o console. O objetivo do jogo é adivinhar o prato que o jogador está pensando, fazendo perguntas sobre características dos alimentos até chegar a uma resposta correta.
 
+## Instruções de Uso
+
+Para executar o jogo, basta acessar Setup/JogoGourmet.exe. O jogo também pode ser executado a partir do Visual Studio e afins, abrindo o arquivo JogoGourmet.sln e executando o projeto JogoGourmet.
 
 ## Projetos
 
@@ -34,8 +37,3 @@ O projeto Cli é a interface do usuário via linha de comando (CLI - Command Lin
 -   **Recursão:** O processo de adivinhação é implementado utilizando recursão para percorrer os nós da árvore, permitindo explorar diferentes caminhos até encontrar o prato correto.
 
 -   **Console Interface:** A interação com o jogador é feita por meio do console, onde são exibidas as perguntas e coletadas as respostas.
-
-
-## Instruções de Uso
-
-Para executar o jogo, basta acessar Build/JogoGourmet.exe. O jogo também pode ser executado a partir do Visual Studio e afins, abrindo o arquivo JogoGourmet.sln e executando o projeto JogoGourmet.

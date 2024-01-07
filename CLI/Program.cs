@@ -7,7 +7,7 @@ namespace Core.ConsoleApp
     {
         static void Main(string[] args)
         {
-            var gameService = new GameService(); 
+            var gameService = new GameService(new InterfaceCli()); 
             var game = new Game(gameService); 
             game.Start();
         }
