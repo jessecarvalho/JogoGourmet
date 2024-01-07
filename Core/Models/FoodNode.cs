@@ -1,19 +1,20 @@
-namespace Core.Models;
-
-
-public class FoodNode
+namespace Core.Models
 {
-    public string Name { get; set; }
-    public List<FoodNode>? Nodes { get; set; }
+    public class FoodNode
+    {
+        public string Name { get; set; }
+        public List<FoodNode> Nodes { get; set; }
 
-    public FoodNode(string name)
-    {
-        this.Name = name;
-    }
-    
-    public FoodNode AddNode(FoodNode node)
-    {
-        Nodes.Add(node);
-        return node;
+        public FoodNode(string name)
+        {
+            this.Name = name;
+            this.Nodes = new List<FoodNode>(); 
+        }
+        
+        public FoodNode AddNode(FoodNode node)
+        {
+            Nodes.Add(node);
+            return node;
+        }
     }
 }
