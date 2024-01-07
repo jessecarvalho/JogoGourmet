@@ -32,8 +32,6 @@ O projeto Cli é a interface do usuário via linha de comando (CLI - Command Lin
 
 ## Detalhes Técnicos
 
--   **Estrutura de Dados:** O jogo é construído utilizando uma estrutura de árvore de nós, onde cada nó representa um prato ou uma característica.
-
 -   **Recursão:** O processo de adivinhação é implementado utilizando recursão para percorrer os nós da árvore, permitindo explorar diferentes caminhos até encontrar o prato correto.
 
 -   **Console Interface:** A interação com o jogador é feita por meio do console, onde são exibidas as perguntas e coletadas as respostas.
